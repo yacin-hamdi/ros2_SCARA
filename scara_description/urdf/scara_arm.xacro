@@ -21,6 +21,12 @@
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <material name="grey"/>
         </visual>
+        <collision>
+            <geometry>
+                <box size="${base_length} ${base_width} ${base_height}"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </collision>
     </link>
 
     <link name="link_1">
@@ -31,6 +37,12 @@
             <origin xyz="${-link_length/2 + offset} 0 0" rpy="0 0 0"/>
             <material name="blue"/>
         </visual>
+        <collision>
+            <geometry>
+                <box size="${link_length} ${link_width} ${link_height}"/>
+            </geometry>
+            <origin xyz="${-link_length/2 + offset} 0 0" rpy="0 0 0"/>
+        </collision>
     </link>
 
     <link name="link_2">
@@ -41,6 +53,12 @@
             <origin xyz="${-link_length/2 + offset} 0 ${link_height/2}" rpy="0 0 0"/>
             <material name="blue"/>
         </visual>
+        <collision>
+            <geometry>
+                <box size="${link_length} ${link_width} ${link_height}"/>
+            </geometry>
+            <origin xyz="${-link_length/2 + offset} 0 ${link_height/2}" rpy="0 0 0"/>
+        </collision>
     </link>
 
     <link name="link_3">
@@ -51,6 +69,12 @@
             <origin xyz="0 0 ${-link_3_length/2}" rpy="0 0 0"/>
             <material name="orange"/>
         </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="${link_3_radius}" length="${link_3_length}"/>
+            </geometry>
+            <origin xyz="0 0 ${-link_3_length/2}" rpy="0 0 0"/>
+        </collision>
     </link>
 
     <joint name="base_joint" type="fixed">
