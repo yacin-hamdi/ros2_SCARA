@@ -1,0 +1,6 @@
+Invoking command in '/home/moose/ros2_ws/src/build/scara_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/moose/ros2_ws/src/scara_bringup -DCMAKE_INSTALL_PREFIX=/home/moose/ros2_ws/src/install/scara_bringup
+Invoked command in '/home/moose/ros2_ws/src/build/scara_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/moose/ros2_ws/src/scara_bringup -DCMAKE_INSTALL_PREFIX=/home/moose/ros2_ws/src/install/scara_bringup
+Invoking command in '/home/moose/ros2_ws/src/build/scara_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moose/ros2_ws/src/build/scara_bringup -- -j8 -l8
+Invoked command in '/home/moose/ros2_ws/src/build/scara_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moose/ros2_ws/src/build/scara_bringup -- -j8 -l8
+Invoking command in '/home/moose/ros2_ws/src/build/scara_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/moose/ros2_ws/src/build/scara_bringup
+Invoked command in '/home/moose/ros2_ws/src/build/scara_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/moose/ros2_ws/src/build/scara_bringup
